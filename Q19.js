@@ -8,3 +8,18 @@
 // The first console log should print 5.
 // The second console log should print "equal".
 // The third console log should print -3.
+
+var maxOf2 = function(num1, num2) {
+  if(num1 === num2) {
+    return "equal";
+  }
+  else if(num1 > num2) {
+      return num1
+  }
+  else {
+    return num2;
+  }
+}
+console.log(maxOf2(5, 1));
+console.log(maxOf2(5, 5));
+console.log(maxOf2(-4, -3));
